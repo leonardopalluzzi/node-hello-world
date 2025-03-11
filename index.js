@@ -1,3 +1,5 @@
-console.log('Hello Rome')
+const word = process.argv[2];
 
-// echo "console.log('Hello Rome')" > index.js
+console.log(word);
+
+// node index.js "la mia frase"
